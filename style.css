@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head .background img{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    height: 440px;
+}
+.nav{
+    position: absolute;
+    top: 10px;
+    background-color: transparent;
+    display:flex;
+    width: 100%;
+    position: fixed;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin-top: 13px;
+}
+.nav .logo{
+    margin-right: 800px;
+    margin-left: 180px;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(230, 0, 46);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: lightcoral;
+}
+.nav ul li{
+    margin: 0 40px;
+    color: rgb(241, 241, 241);
+    font-size: larger;
+}
+.head .text{
+    position: absolute;
+    margin-top: 120px;
+    left: 28%;
+    color: rgb(245, 245, 245);
+    font-size: 40px;
+    font-weight: 50;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    justify-content: center;
+}
+.head .icon img{
+    position: absolute;
+    top: 50px;
+    background-color: transparent;
+}
+.input{
+    position: absolute;
+    top: 230px;
+    left: 24%;
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    width: 50%;
+}
+.input .place select option{
+    border: none;
+    color: rgb(39, 39, 39);
+}
+.input .place select{
+    width: 170px;
+    height: 30px;
+    border: none;
+    font-size: larger;
+}
+.input .search input{
+    width: 490px;
+    height: 30px;
+    border: none;
+    margin-left: 17px;
+    font-size: medium;
+}
+.input .search button{
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    font-size: medium;
+    border: none;
+}
